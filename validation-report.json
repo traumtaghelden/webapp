@@ -1,0 +1,998 @@
+{
+  "timestamp": "2025-11-16T11:25:54.549Z",
+  "filesScanned": 268,
+  "totalIssues": 123,
+  "errors": [],
+  "warnings": [
+    {
+      "file": "src/components/BlockPlanning/BudgetCostsTab.tsx",
+      "line": 180,
+      "column": 27,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BlockPlanning/SubTimelineTab.tsx",
+      "line": 457,
+      "column": 37,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BlockPlanning/SubTimelineTab.tsx",
+      "line": 457,
+      "column": 51,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Hinzufügen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BlockPlanningModal.tsx",
+      "line": 124,
+      "column": 13,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Budget/BudgetKPIPanel.tsx",
+      "line": 36,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Budget/BudgetTable.tsx",
+      "line": 151,
+      "column": 42,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Event'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BudgetAddModal.tsx",
+      "line": 220,
+      "column": 40,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zahlung'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BudgetCategoryManager.tsx",
+      "line": 433,
+      "column": 38,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BudgetDetailModal.tsx",
+      "line": 738,
+      "column": 47,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Kategorie'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BudgetDetailModal.tsx",
+      "line": 741,
+      "column": 48,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BudgetItemLinkingModal.tsx",
+      "line": 209,
+      "column": 82,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/BudgetTagManager.tsx",
+      "line": 135,
+      "column": 33,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/CategoryManager.tsx",
+      "line": 318,
+      "column": 38,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/CategoryManager.tsx",
+      "line": 318,
+      "column": 52,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Hinzufügen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/ConfirmDeleteDialog.tsx",
+      "line": 23,
+      "column": 17,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Löschen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/ConfirmDeleteDialog.tsx",
+      "line": 24,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abbrechen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/ContactListModal.tsx",
+      "line": 259,
+      "column": 116,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Gast'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/ContactListModal.tsx",
+      "line": 20,
+      "column": 3,
+      "severity": "warning",
+      "message": "Inkonsistente Benennung: \"sortedGuests\"",
+      "suggestion": "Expected snake_case for DB fields"
+    },
+    {
+      "file": "src/components/Dashboard/DashboardOverviewTab.tsx",
+      "line": 241,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DashboardNotifications.tsx",
+      "line": 94,
+      "column": 91,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DataExport.tsx",
+      "line": 304,
+      "column": 55,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DataExport.tsx",
+      "line": 305,
+      "column": 55,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Eingeladen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DataExport.tsx",
+      "line": 306,
+      "column": 56,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DataExport.tsx",
+      "line": 306,
+      "column": 69,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DeleteWithLinksDialog.tsx",
+      "line": 44,
+      "column": 27,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DeleteWithLinksDialog.tsx",
+      "line": 45,
+      "column": 29,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Budget-Posten'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DeleteWithLinksDialog.tsx",
+      "line": 46,
+      "column": 29,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DietaryRequirementsModal.tsx",
+      "line": 141,
+      "column": 76,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Gast'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/DietaryRequirementsModal.tsx",
+      "line": 228,
+      "column": 74,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Gast'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/FamilyDetailModal.tsx",
+      "line": 103,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/FamilyDetailModal.tsx",
+      "line": 105,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/FamilyDetailModal.tsx",
+      "line": 107,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Eingeladen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/FamilyDetailModal.tsx",
+      "line": 109,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/FamilyEditModal.tsx",
+      "line": 230,
+      "column": 48,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/GuestManagerNew.tsx",
+      "line": 157,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/GuestManagerNew.tsx",
+      "line": 171,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/GuestSummaryBanner.tsx",
+      "line": 130,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/GuestSummaryBanner.tsx",
+      "line": 138,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFamiliesTab.tsx",
+      "line": 170,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFamiliesTab.tsx",
+      "line": 172,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFamiliesTab.tsx",
+      "line": 174,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Eingeladen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFamiliesTab.tsx",
+      "line": 176,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFilterBar.tsx",
+      "line": 117,
+      "column": 42,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFilterBar.tsx",
+      "line": 118,
+      "column": 42,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFilterBar.tsx",
+      "line": 279,
+      "column": 42,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestFilterBar.tsx",
+      "line": 279,
+      "column": 79,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestGroupsTab.tsx",
+      "line": 137,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestGroupsTab.tsx",
+      "line": 139,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestGroupsTab.tsx",
+      "line": 141,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Eingeladen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestGroupsTab.tsx",
+      "line": 143,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestGroupsTab.tsx",
+      "line": 612,
+      "column": 41,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestOverviewTab.old.tsx",
+      "line": 104,
+      "column": 40,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestOverviewTab.old.tsx",
+      "line": 105,
+      "column": 40,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestOverviewTab.old.tsx",
+      "line": 168,
+      "column": 57,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestOverviewTab.old.tsx",
+      "line": 168,
+      "column": 105,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestRSVPTab.tsx",
+      "line": 91,
+      "column": 50,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Eingeladen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestRSVPTab.tsx",
+      "line": 91,
+      "column": 65,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestRSVPTab.tsx",
+      "line": 123,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestRSVPTab.tsx",
+      "line": 131,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestRSVPTab.tsx",
+      "line": 215,
+      "column": 19,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestRSVPTab.tsx",
+      "line": 216,
+      "column": 19,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestRSVPTab.tsx",
+      "line": 377,
+      "column": 67,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Gast'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestStatsDashboard.tsx",
+      "line": 72,
+      "column": 15,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Zugesagt\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Guests/GuestStatsDashboard.tsx",
+      "line": 81,
+      "column": 15,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Abgesagt\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/LinkedBudgetItemsPanel.tsx",
+      "line": 239,
+      "column": 76,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zahlung'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/LocationAddModal.tsx",
+      "line": 72,
+      "column": 40,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/ManualPaymentToggle.tsx",
+      "line": 96,
+      "column": 47,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/ModalConfirm.tsx",
+      "line": 25,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abbrechen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Support/FAQTab.tsx",
+      "line": 24,
+      "column": 27,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Dienstleister\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Support/TutorialsTab.tsx",
+      "line": 34,
+      "column": 60,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Geplant\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Support/TutorialsTab.tsx",
+      "line": 34,
+      "column": 95,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Eingeladen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Support/TutorialsTab.tsx",
+      "line": 34,
+      "column": 132,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Zugesagt\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Support/TutorialsTab.tsx",
+      "line": 34,
+      "column": 148,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Abgesagt\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Support/TutorialsTab.tsx",
+      "line": 72,
+      "column": 45,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Dienstleister\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/TaskDetailModal.tsx",
+      "line": 435,
+      "column": 112,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/TaskTemplateSelector.tsx",
+      "line": 90,
+      "column": 17,
+      "severity": "warning",
+      "message": "Inkonsistente Benennung: \"taskCount\"",
+      "suggestion": "Expected snake_case for DB fields"
+    },
+    {
+      "file": "src/components/Tasks/TaskKanbanTab.tsx",
+      "line": 273,
+      "column": 67,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskListColumnConfig.tsx",
+      "line": 21,
+      "column": 26,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskListColumnConfig.tsx",
+      "line": 22,
+      "column": 29,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Kategorie'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskListTable.tsx",
+      "line": 484,
+      "column": 31,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskListTable.tsx",
+      "line": 614,
+      "column": 31,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskListView.tsx",
+      "line": 162,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskListView.tsx",
+      "line": 183,
+      "column": 14,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Kategorie'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskListView.tsx",
+      "line": 301,
+      "column": 19,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/Tasks/TaskTeamTab.tsx",
+      "line": 754,
+      "column": 65,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/VendorExport.tsx",
+      "line": 13,
+      "column": 7,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Kategorie'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/VerticalSidebar.tsx",
+      "line": 32,
+      "column": 44,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/ChecklistTab.tsx",
+      "line": 340,
+      "column": 31,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Bearbeiten\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/ChecklistTab.tsx",
+      "line": 347,
+      "column": 31,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/ChecklistTab.tsx",
+      "line": 564,
+      "column": 41,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Hinzufügen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/EventBlock.tsx",
+      "line": 159,
+      "column": 27,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/EventBlock.tsx",
+      "line": 225,
+      "column": 25,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Bearbeiten\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/EventBlock.tsx",
+      "line": 232,
+      "column": 25,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/PackingListTab.tsx",
+      "line": 301,
+      "column": 35,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Bearbeiten\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/PackingListTab.tsx",
+      "line": 308,
+      "column": 35,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/PackingListTab.tsx",
+      "line": 526,
+      "column": 41,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Hinzufügen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/TimelineTab.tsx",
+      "line": 173,
+      "column": 31,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Bearbeiten\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/TimelineTab.tsx",
+      "line": 180,
+      "column": 31,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Löschen\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/TimelineTab.tsx",
+      "line": 403,
+      "column": 41,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Hinzufügen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/WeddingDayTimeline/VendorsTab.tsx",
+      "line": 85,
+      "column": 107,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: \"Bearbeiten\"",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/_legacy/budget/BudgetAddModal.tsx",
+      "line": 240,
+      "column": 40,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zahlung'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/_legacy/budget/BudgetAddModal.tsx",
+      "line": 565,
+      "column": 51,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Bearbeiten'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/_legacy/budget/BudgetDetailModal.original.tsx",
+      "line": 1207,
+      "column": 47,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Kategorie'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/_legacy/budget/BudgetDetailModal.original.tsx",
+      "line": 1210,
+      "column": 48,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/_legacy/guests/GuestDetailModal.tsx",
+      "line": 229,
+      "column": 29,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Speichern'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/_legacy/guests/GuestDetailModal.tsx",
+      "line": 229,
+      "column": 43,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Bearbeiten'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/components/_legacy/tasks/TaskDetailModal.original.tsx",
+      "line": 410,
+      "column": 112,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/contexts/ModalContext.tsx",
+      "line": 35,
+      "column": 17,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abbrechen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/contexts/ModalContext.tsx",
+      "line": 79,
+      "column": 45,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abbrechen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/contexts/ToastContext.tsx",
+      "line": 52,
+      "column": 16,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/hooks/useConfirmDialog.ts",
+      "line": 19,
+      "column": 20,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Löschen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 48,
+      "column": 17,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Budget-Posten'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 49,
+      "column": 21,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Kategorie'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 50,
+      "column": 20,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zahlung'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 53,
+      "column": 19,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Dienstleister'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 54,
+      "column": 20,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zahlung'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 58,
+      "column": 17,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Aufgabe'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 62,
+      "column": 18,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Gast'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/system/validator.ts",
+      "line": 67,
+      "column": 18,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Event'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/utils/exportHelpers.ts",
+      "line": 98,
+      "column": 42,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Zugesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/utils/exportHelpers.ts",
+      "line": 99,
+      "column": 42,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Abgesagt'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/utils/exportHelpers.ts",
+      "line": 100,
+      "column": 41,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Eingeladen'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    },
+    {
+      "file": "src/utils/exportHelpers.ts",
+      "line": 100,
+      "column": 56,
+      "severity": "warning",
+      "message": "Hardcoded UI-String gefunden: 'Geplant'",
+      "suggestion": "Verwende Konstanten aus terminology.ts"
+    }
+  ],
+  "infos": [],
+  "summary": {
+    "hardcodedStrings": 121,
+    "forbiddenTerms": 0,
+    "namingInconsistencies": 2
+  }
+}

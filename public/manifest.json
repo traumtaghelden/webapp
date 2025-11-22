@@ -1,0 +1,26 @@
+{
+  "name": "Hochzeitsplaner",
+  "short_name": "Hochzeit",
+  "description": "Professioneller Hochzeitsplaner für euren großen Tag",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f2eb",
+  "theme_color": "#d4af37",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "productivity"],
+  "screenshots": []
+}

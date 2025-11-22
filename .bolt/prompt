@@ -1,0 +1,480 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+All buttons in this project should follow these design principles:
+
+Visual Style:
+
+Use warm, vibrant colors (yellow/gold tones: #F5B800 or similar)
+Rounded corners (typically rounded-lg or rounded-full for pill-shaped buttons)
+Clean, modern aesthetic with good contrast
+Text should be clearly legible with appropriate padding
+Button Sizes:
+
+Small Button: px-3 py-1.5, text-sm, icon size w-3 h-3
+Medium Button (Standard): px-4 py-2, text-base, icon size w-4 h-4
+Large Button: px-6 py-3, text-lg, icon size w-5 h-5
+Extra Large Button: px-8 py-4, text-xl, icon size w-6 h-6
+Minimum Dimensions:
+
+Height: Minimum 40px (py-2.5) for touch-friendly interaction
+Width: Auto-fit content with minimum px-4 padding
+Icon spacing: mr-2 between icon and text
+Button Variants:
+
+Primary Button: Yellow/gold background (#F5B800), dark text, for main actions
+Secondary Button: Outlined or lighter background, for secondary actions
+Danger Button: Red tones for destructive actions
+Disabled State: Reduced opacity (50-60%) and cursor-not-allowed
+Typography:
+
+Use medium or semibold font weight (font-medium or font-semibold)
+Font size should be readable (text-sm to text-xl depending on size variant)
+Text should have proper spacing and padding
+Line height should be consistent (leading-normal or leading-tight)
+Spacing & Sizing:
+
+Padding horizontal: px-4 to px-8 depending on button size
+Padding vertical: py-2 to py-4 depending on button size
+Add icons using lucide-react when needed (positioned before text with mr-2 spacing)
+Maintain consistent height across button types within same size category
+Gap between multiple buttons: gap-2 or gap-3
+Interaction States:
+
+Hover: Slightly darker shade or subtle transform/shadow effect (hover:bg-[#E0A800])
+Active: Pressed state with slight scale (active:scale-95) or color adjustment
+Focus: Visible focus ring for accessibility (focus:ring-2 focus:ring-offset-2)
+Loading: Show spinner/loading state when processing, maintain button dimensions
+Code Example Structure:
+
+
+// Standard Medium Button (like "Gast hinzufügen")
+<button className="bg-[#F5B800] hover:bg-[#E0A800] text-gray-900 font-medium px-4 py-2 rounded-lg transition-all duration-200 flex items-center gap-2 min-h-[40px]">
+  <Plus className="w-4 h-4" />
+  Button Text
+</button>
+
+// Large Button
+<button className="bg-[#F5B800] hover:bg-[#E0A800] text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all duration-200 flex items-center gap-2 text-lg min-h-[48px]">
+  <Plus className="w-5 h-5" />
+  Button Text
+</button>
+
+// Small Button
+<button className="bg-[#F5B800] hover:bg-[#E0A800] text-gray-900 font-medium px-3 py-1.5 rounded-lg transition-all duration-200 flex items-center gap-2 text-sm min-h-[32px]">
+  <Plus className="w-3 h-3" />
+  Button Text
+</button>
+Responsive Sizing:
+
+On mobile: Consider using full width (w-full) for primary actions
+On tablet/desktop: Use auto width or max-width constraints
+Adjust font size responsively: text-sm md:text-base lg:text-lg
+Key Requirements:
+
+Always use Tailwind CSS classes (no custom CSS files unless necessary)
+Include transition effects for smooth interactions (transition-all duration-200)
+Ensure buttons are responsive and work on mobile devices
+Use semantic HTML (button element, not div)
+Add appropriate aria-labels for accessibility when using icon-only buttons
+Maintain minimum touch target size of 40x40px for mobile usability
+Use flex items-center gap-2 for proper icon alignment
+Dieser erweiterte Standard enthält nun präzise Größenangaben für alle Button-Varianten!
+
+Modal Design Guidelines
+All modals and popups in this project should follow these design principles:
+
+Visual Style:
+
+Dark blue gradient background (from dark navy to lighter blue tones)
+Rounded corners on the modal container (rounded-xl or rounded-2xl)
+White text for high contrast against dark background
+Semi-transparent backdrop overlay behind modal
+Clean, modern aesthetic with clear visual hierarchy
+Modal Structure:
+
+Header Section:
+
+Icon on the left (yellow/gold background #F5B800, rounded-lg, with white icon)
+Title text: Large, bold, white (text-xl or text-2xl, font-bold)
+Subtitle text: Smaller, lighter gray/white (text-sm, text-gray-300)
+Close button (X) on the top-right corner
+Tab Navigation:
+
+Horizontal tab bar below header
+Active tab: Yellow/gold background (#F5B800), dark text, rounded-lg
+Inactive tabs: Transparent/dark background, lighter text, rounded-lg
+Icons before text labels (from lucide-react)
+Tab sizes: px-4 py-2, text-sm, font-medium
+Gap between tabs: gap-2
+Content Section:
+
+Dark blue background (slightly lighter than header)
+Form fields with dark backgrounds and lighter borders
+Labels: White text, text-sm, font-medium, with asterisk for required fields
+Input fields: Dark background, light text, rounded-lg, border with subtle color
+Full-width inputs for single-column layout
+Two-column layout for related fields (E-Mail / Telefon)
+Input Field Types:
+
+Text inputs: Dark background, light border, white text, rounded-lg
+Dropdowns/Selects: Same styling as text inputs with dropdown arrow
+Button groups: Multiple buttons in a row with rounded corners and borders
+Special selection buttons: Highlighted with blue background when selected
+Footer Section:
+
+Aligned to the right (flex justify-end)
+Primary action button: Outlined style or yellow/gold background
+Secondary action button: "Zurück" with subtle styling
+Gap between buttons: gap-3
+Sizing & Spacing:
+
+Modal width: max-w-2xl to max-w-4xl depending on content
+Padding: p-6 to p-8 for main content
+Header padding: p-6 with border-bottom
+Section spacing: space-y-4 to space-y-6
+Input height: min-h-[44px] for accessibility
+Form field spacing: gap-4 between fields
+Color Palette:
+
+Background gradient: from-[#0A1F3D] via-[#1a3a5c] to-[#2a4a6c]
+Active elements: #F5B800 (yellow/gold)
+Selected state: #3B82F6 (blue)
+Text primary: white or text-gray-100
+Text secondary: text-gray-300 or text-gray-400
+Borders: border-gray-600 or border-gray-700
+Toast/Notification System
+Confirmation Messages:
+
+After successful actions (save, delete, update, etc.), always show a toast notification with these characteristics:
+
+Toast Types:
+
+Success Toast:
+
+Background: Green gradient (from-green-500 to-green-600)
+Icon: CheckCircle or Check from lucide-react
+Text: White, font-medium
+Duration: 3-4 seconds
+Error Toast:
+
+Background: Red gradient (from-red-500 to-red-600)
+Icon: XCircle or AlertCircle from lucide-react
+Text: White, font-medium
+Duration: 5-6 seconds
+Warning Toast:
+
+Background: Orange/amber gradient (from-amber-500 to-amber-600)
+Icon: AlertTriangle from lucide-react
+Text: White, font-medium
+Duration: 4-5 seconds
+Info Toast:
+
+Background: Blue gradient (from-blue-500 to-blue-600)
+Icon: Info from lucide-react
+Text: White, font-medium
+Duration: 3-4 seconds
+Toast Positioning:
+
+Default: Top-right corner (top-4 right-4)
+Alternative: Top-center or bottom-center depending on context
+Stack multiple toasts vertically with gap-2
+Z-index: z-50 or higher to appear above modals
+Toast Structure:
+
+Width: min-w-[300px] max-w-[400px]
+Padding: px-4 py-3
+Rounded corners: rounded-lg
+Shadow: shadow-lg for depth
+Icon size: w-5 h-5
+Close button: Optional X button on the right
+Animation:
+
+Entrance: Slide in from right with fade (translate-x-full to translate-x-0)
+Exit: Slide out to right with fade (translate-x-0 to translate-x-full)
+Duration: transition-all duration-300
+Auto-dismiss: Fade out after specified duration
+Code Example Structure:
+
+
+// Modal with form
+<div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+  <div className="bg-gradient-to-br from-[#0A1F3D] via-[#1a3a5c] to-[#2a4a6c] rounded-2xl max-w-3xl w-full mx-4 max-h-[90vh] overflow-hidden">
+    {/* Header */}
+    <div className="flex items-start gap-4 p-6 border-b border-gray-700">
+      <div className="bg-[#F5B800] p-3 rounded-lg">
+        <UserPlus className="w-6 h-6 text-white" />
+      </div>
+      <div className="flex-1">
+        <h2 className="text-2xl font-bold text-white">Modal Title</h2>
+        <p className="text-sm text-gray-300 mt-1">Subtitle text</p>
+      </div>
+      <button className="text-gray-400 hover:text-white">
+        <X className="w-6 h-6" />
+      </button>
+    </div>
+
+    {/* Tab Navigation */}
+    <div className="flex gap-2 px-6 pt-4">
+      <button className="bg-[#F5B800] text-gray-900 px-4 py-2 rounded-lg font-medium text-sm flex items-center gap-2">
+        <User className="w-4 h-4" />
+        Grunddaten
+      </button>
+      <button className="bg-transparent text-gray-300 px-4 py-2 rounded-lg font-medium text-sm flex items-center gap-2 hover:bg-gray-700/30">
+        <Heart className="w-4 h-4" />
+        Beziehung
+      </button>
+    </div>
+
+    {/* Content */}
+    <div className="p-6 space-y-4 overflow-y-auto">
+      {/* Form fields */}
+      <div>
+        <label className="block text-sm font-medium text-white mb-2">
+          Label<span className="text-red-400">*</span>
+        </label>
+        <input 
+          type="text"
+          className="w-full bg-[#1a3a5c] border border-gray-600 rounded-lg px-4 py-2.5 text-white placeholder-gray-400 focus:border-[#F5B800] focus:ring-2 focus:ring-[#F5B800]/20 outline-none transition-all"
+          placeholder="z.B. Maria Schmidt"
+        />
+      </div>
+
+      {/* Two-column layout */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-sm font-medium text-white mb-2">E-Mail</label>
+          <input type="email" className="w-full bg-[#1a3a5c] border border-gray-600 rounded-lg px-4 py-2.5 text-white" />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-white mb-2">Telefon</label>
+          <input type="tel" className="w-full bg-[#1a3a5c] border border-gray-600 rounded-lg px-4 py-2.5 text-white" />
+        </div>
+      </div>
+    </div>
+
+    {/* Footer */}
+    <div className="flex justify-end gap-3 p-6 border-t border-gray-700">
+      <button className="px-6 py-2.5 rounded-lg text-gray-300 border border-gray-600 hover:bg-gray-700/30 transition-all">
+        Zurück
+      </button>
+      <button 
+        onClick={handleSave}
+        className="px-6 py-2.5 rounded-lg bg-[#F5B800] hover:bg-[#E0A800] text-gray-900 font-medium transition-all"
+      >
+        Speichern
+      </button>
+    </div>
+  </div>
+</div>
+
+// Success Toast Component
+<div className="fixed top-4 right-4 z-50 animate-in slide-in-from-right duration-300">
+  <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-lg shadow-lg flex items-center gap-3 min-w-[300px] max-w-[400px]">
+    <CheckCircle className="w-5 h-5 flex-shrink-0" />
+    <div className="flex-1">
+      <p className="font-medium">Erfolgreich gespeichert!</p>
+      <p className="text-sm text-green-50">Die Änderungen wurden übernommen.</p>
+    </div>
+    <button className="text-white hover:text-green-100">
+      <X className="w-4 h-4" />
+    </button>
+  </div>
+</div>
+
+// Error Toast Component
+<div className="fixed top-4 right-4 z-50 animate-in slide-in-from-right duration-300">
+  <div className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-3 rounded-lg shadow-lg flex items-center gap-3 min-w-[300px] max-w-[400px]">
+    <XCircle className="w-5 h-5 flex-shrink-0" />
+    <div className="flex-1">
+      <p className="font-medium">Fehler beim Speichern</p>
+      <p className="text-sm text-red-50">Bitte versuchen Sie es erneut.</p>
+    </div>
+    <button className="text-white hover:text-red-100">
+      <X className="w-4 h-4" />
+    </button>
+  </div>
+</div>
+
+// Warning Toast Component
+<div className="fixed top-4 right-4 z-50 animate-in slide-in-from-right duration-300">
+  <div className="bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-3 rounded-lg shadow-lg flex items-center gap-3 min-w-[300px] max-w-[400px]">
+    <AlertTriangle className="w-5 h-5 flex-shrink-0" />
+    <div className="flex-1">
+      <p className="font-medium">Achtung</p>
+      <p className="text-sm text-amber-50">Einige Felder sind noch leer.</p>
+    </div>
+    <button className="text-white hover:text-amber-100">
+      <X className="w-4 h-4" />
+    </button>
+  </div>
+</div>
+
+// Info Toast Component
+<div className="fixed top-4 right-4 z-50 animate-in slide-in-from-right duration-300">
+  <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-3 rounded-lg shadow-lg flex items-center gap-3 min-w-[300px] max-w-[400px]">
+    <Info className="w-5 h-5 flex-shrink-0" />
+    <div className="flex-1">
+      <p className="font-medium">Information</p>
+      <p className="text-sm text-blue-50">Daten werden synchronisiert...</p>
+    </div>
+    <button className="text-white hover:text-blue-100">
+      <X className="w-4 h-4" />
+    </button>
+  </div>
+</div>
+Toast Usage Examples:
+
+After Saving:
+
+"Erfolgreich gespeichert!" (Success)
+"Die Daten wurden erfolgreich gespeichert."
+After Deleting:
+
+"Erfolgreich gelöscht!" (Success)
+"Der Eintrag wurde entfernt."
+After Updating:
+
+"Änderungen gespeichert!" (Success)
+"Ihre Änderungen wurden übernommen."
+On Error:
+
+"Fehler beim Speichern" (Error)
+"Bitte überprüfen Sie Ihre Eingaben."
+On Warning:
+
+"Unvollständige Eingabe" (Warning)
+"Bitte füllen Sie alle Pflichtfelder aus."
+Interaction States:
+
+Modal entrance: Fade in with scale animation (animate-in)
+Modal exit: Fade out with scale animation
+Backdrop click: Close modal (optional, based on context)
+ESC key: Close modal
+Tab switching: Smooth content transition
+Form validation: Show error states with red borders and error messages
+Accessibility Requirements:
+
+Focus trap: Keep focus within modal when open
+ARIA labels: role="dialog", aria-modal="true", aria-labelledby
+Toast ARIA: role="alert" for important messages, role="status" for info
+Keyboard navigation: Tab through all interactive elements
+Close button: Always accessible and visible
+Focus visible states: Clear outline on focused elements
+Screen reader announcements: Toast messages should be announced
+Responsive Behavior:
+
+Mobile: Full-screen or nearly full-screen (mx-4 for small margins)
+Tablet/Desktop: Centered with max-width constraint
+Max height: max-h-[90vh] with overflow-y-auto for scrollable content
+Padding adjustments: Reduce padding on smaller screens
+Toast positioning: Adjust to top-center on mobile if needed
+Key Requirements:
+
+Always use dark blue gradient backgrounds for modals
+Maintain yellow/gold accent color (#F5B800) for active states
+Show toast notification after every significant action (save, delete, update)
+Use appropriate toast type (success, error, warning, info)
+Auto-dismiss toasts after appropriate duration
+Stack multiple toasts vertically if needed
+Ensure proper contrast ratios for accessibility (WCAG AA minimum)
+Use smooth transitions for all state changes
+Include proper focus management and keyboard support
+Form fields should have clear labels and validation states
+Close button always visible and accessible
+
+bg-gradient-to-br from-white to-[#f7f2eb]/30 rounded-xl p-3 shadow-lg border border-[#d4af37]/10
+
+
+
+**Filter Panel Container:**
+bg-gradient-to-br from-white to-[#f7f2eb]/20 rounded-xl p-4 shadow-lg border border-[#d4af37]/30
+
+
+
+**Card Container:**
+p-3 bg-gradient-to-br from-white to-[#f7f2eb]/50 rounded-xl hover:shadow-xl hover:shadow-[#d4af37]/10 transition-all duration-300 border border-[#d4af37]/10 hover:border-[#d4af37]/40 hover:scale-[1.02] active:scale-[0.98]
+
+
+
+**Header Container:**
+flex flex-col lg:flex-row items-start lg:items-center justify-between gap-2 mb-2
+
+
+
+### Responsive Patterns
+**Text Visibility:**
+- Hide text on mobile, show on desktop: `<span className="hidden sm:inline">Text</span>`
+- Show abbreviated on mobile: `<span className="sm:hidden">Short</span>`
+
+**Button Text:**
+```jsx
+<span className="hidden sm:inline">Full Text</span>
+<span className="sm:hidden">Short</span>
+Layout Adjustments:
+
+Mobile: flex-col
+Desktop: lg:flex-row
+Items alignment: items-start lg:items-center
+Standard Color Palette
+Primary Colors:
+
+Gold Primary: #d4af37
+Gold Secondary: #c19a2e
+Text Colors:
+
+Primary: #0a253c
+Secondary: #666666
+Tertiary: #999999
+White: text-white
+Background Colors:
+
+Light Background: #f7f2eb
+White: bg-white
+Gradient Light: from-white to-[#f7f2eb]/30
+Status Colors:
+
+Success: bg-green-100 text-green-700
+Error: bg-red-100 text-red-700
+Warning: bg-orange-100 text-orange-700
+Info: bg-blue-100 text-blue-700
+Accessibility Requirements
+Minimum Touch Targets:
+
+Buttons: min-h-[40px] for mobile
+Inputs: min-h-[44px] for easy interaction
+Focus States:
+
+Always include: focus:ring-2 focus:ring-[#d4af37]/50
+Outline removal: outline-none (only when ring is present)
+Keyboard Navigation:
+
+All interactive elements must be keyboard accessible
+Focus trap in modals
+Clear focus indicators
+Animation Classes
+Slide Down:
+
+
+animate-slideDown
+Fade In:
+
+
+animate-in
+Scale Transitions:
+
+Hover: hover:scale-105 or hover:scale-[1.02]
+Active: active:scale-95 or active:scale-[0.98]
+Usage Guidelines
+When creating new components, always:
+
+Use these standardized sizes for consistency
+Apply the same color palette and opacity levels
+Include proper hover and active states
+Add smooth transitions
+Ensure minimum touch target sizes
+Include accessibility features (focus rings, ARIA labels)
+Test responsive behavior on mobile and desktop
